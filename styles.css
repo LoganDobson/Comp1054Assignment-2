@@ -1,0 +1,118 @@
+/* import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+/* General Styles & Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    max-width: 9000px;
+    margin: 2em auto;
+
+
+}
+
+.container>div {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid black;
+
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+header p {
+    width: 50%;
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1em;
+    color: gray;
+
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    gap: 1.5em;
+    padding: 2em;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+section {
+    background-color: #dadada
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+header section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em;
+    background-color: #4C4E52;
+
+}
+
+header section p {
+    color: white;
+    position: relative;
+    left: 20;
+}
+
+header section button {
+    width: 40px;
+}
+
+.button1 {
+    background-color: lightblue;
+    width: 100px;
+
+
+
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 1.2em;
+}
+
+footer p:nth-of-type(1) {
+    width: 50%;
+}
+
+header section img {
+    width: 30px;
+    height: 30px;
+}
